@@ -6,7 +6,8 @@
 //
 
 import Foundation
-let secret = "Bearer sk-100586485edf4acb84b0e13717358a42"
+//TODO here!!!
+let secret = "Bearer --"
 struct MessageReqBody: Codable {
     var model: String = "deepseek-chat"
     let messages: [Message]
